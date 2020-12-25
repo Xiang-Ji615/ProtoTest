@@ -1,0 +1,10 @@
+syntax = "proto3";
+package test;
+option java_package = "com.proto.test";
+option java_outer_classname="Test";
+
+message SearchRequest {
+  string query = 1;
+  int32 page_number = 2;
+  int32 result_per_page = 3;
+}
