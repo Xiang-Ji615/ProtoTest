@@ -1,5 +1,7 @@
 syntax = "proto3";
-package
+package test;
+option java_package = "com.proto.test";
+option java_outer_classname="Test";
 
 message SearchRequest {
   string query = 1;
