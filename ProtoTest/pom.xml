@@ -30,7 +30,7 @@
 				<version>0.6.1</version>
 				<configuration>
 					<protoSourceRoot>${basedir}/src/main/resources</protoSourceRoot>
-					<protocExecutable>../${basedir}/protoc/bin/protoc</protocExecutable>
+					<protocExecutable>../protoc/bin/protoc</protocExecutable>
 					<clearOutputDirectory>true</clearOutputDirectory>
 				</configuration>
 				<executions>
