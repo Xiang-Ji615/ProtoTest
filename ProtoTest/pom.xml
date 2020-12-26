@@ -46,6 +46,7 @@
 					<execution>
 						<goals>
 							<goal>compile</goal>
+							<goal>compile-cpp</goal>
 							<goal>test-compile</goal>
 						</goals>
 					</execution>
