@@ -5,4 +5,5 @@ option java_outer_classname="Test";
 
 message SearchRequest {
   string query = 1;
+  string query2 = 2;
 }
